@@ -159,5 +159,5 @@ while True:
   log.write(print_msg+"\n")
   xivelyDevice.registToXively('temp',temp)
   xivelyDevice.registToXively('hum',hum)
-  xivelyDevice.registToXively('pressure',pressure)
+  xivelyDevice.registToXively('pressure',press)
   time.sleep(INTERVAL)
